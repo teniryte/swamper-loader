@@ -8,7 +8,7 @@
 
 [**Swamper**](https://github.com/teniryte/swamper) is a webpack loader and wrapper around [**worker-loader**](https://github.com/webpack-contrib/worker-loader) web workers loader.
 
-## Webpack Loader
+## Installation
 
 ```sh
 yarn add swamper-loader
@@ -23,7 +23,6 @@ yarn add swamper-loader
       loader: 'worker-loader',
       options: {
         publicPath: '/scripts/workers/',
-        esModule: false,
       },
     },
     {

@@ -1,0 +1,35 @@
+{
+  "name": "swamper-loader",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "description": "Swamper Webpack Loader",
+  "keywords": [
+    "webpack",
+    "loader",
+    "webworkers",
+    "webworker",
+    "workers",
+    "worker"
+  ],
+  "homepage": "https://github.com/teniryte/swamper-loader",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teniryte/swamper-loader.git"
+  },
+  "publish": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
